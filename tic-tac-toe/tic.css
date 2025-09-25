@@ -1,0 +1,42 @@
+*{
+    margin :0;
+    padding:0;
+}
+
+body{
+    background-color: #94D2BD;
+    text-align:center;
+
+}
+
+.container{
+height: 70vh;
+display:flex;
+justify-content:center;
+    align-items:center;
+}
+
+.game{
+    height :60vh;
+    width:60vh;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:1.5vh;
+}
+
+.box{
+    height:18vh;
+    width:18vh;
+    border-radius :1rem;
+    border :none;
+    font-size:8vh;
+    color:black
+}
+
+
+#Reset Button{
+    padding: 1rem;
+    font-size:1.25 rem;
+}
